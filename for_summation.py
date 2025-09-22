@@ -4,5 +4,5 @@ def for_summation(x):
     for x in range(0,x+1,1):
         total += x
     return total 
-x = int(input("input number"))
+x = int(input())
 print(for_summation(x))
